@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
+* print_alphabet - Entry point
 * Return: 0
 * Description - the function will return a character
 */
