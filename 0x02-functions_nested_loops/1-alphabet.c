@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 /**
 * main - Entry point
 * Return: 0
+* Description - the function will return a character
 */
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
@@ -15,5 +13,4 @@ int main(void)
 		putchar(c);
 	}
 	putchar('\n');
-	return (0);
 }
