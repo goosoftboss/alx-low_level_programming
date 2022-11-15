@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
-/*
+
+/**
  * print_dog - a function that prints a struct dog.
  * @d: struct to initialize
  * Return: 0

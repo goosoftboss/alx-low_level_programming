@@ -4,7 +4,7 @@
 int _strLen(char *str);
 void fillMem(char *str, int strLen, char *dest);
 
-/*
+/**
  * new_dog - Creates a new dog
  * @name: Name of dog
  * @age: Age of dog
@@ -41,7 +41,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	n_dog->age = age;
 	return (n_dog);
 }
-/*
+/**
  * _strLen - Get length of a string
  * @str: A string
  * Return: Length of string
@@ -54,7 +54,7 @@ int _strLen(char *str)
 		i++;
 	return (i);
 }
-/*
+/**
  * fillMem - Copy string literal to allocated memory
  * @str: String literal
  * @strLen: @str length
